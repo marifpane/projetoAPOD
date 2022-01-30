@@ -20,9 +20,8 @@ body{
 .principal{
     text-align: center;
     font-family:'Poppins', sans-serif;
-    font-weight: bold;
     font-size: 15px;
-    color: #ffffff;
+    color: #a0a0a0;
 }
 
 .texto{
@@ -41,6 +40,11 @@ body{
     font-size: 18px;
     border-radius: 28px;
     transition-duration: 0.5s;
+}
+
+#explicar{
+    text-align: justify;
+    margin: 20px;
 }
 
 footer{
