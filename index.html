@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto APOD</title>
-    
-    <script src="projetoAPOD.js" defer></script>
+    <title>Projeto APOD</title>    
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <center>
         <main class="principal">
-            <form action="javascript: pesquisar()" class="formulário">
-                <label for="data">Informe a Data</label></form><br>
-                <input type="date" name="data" id="data" class="data"><br><br>
-                <input type="submit" id="botao" class="botao" value="Buscar Imagem"></input>
+            <form action="">
+                <label for="data">Informe a Data</label><br><br>
+                <input type="date" name="data" id="data" class="data" min="1995-06-16"><br><br>
+                <input type="submit" id="button" class="button" value="Buscar Imagem"></input>
             </form>
+
+            <div>
+                <img src="" alt="" id="imagem"><br><br>
+                <hi id="titulo"></hi><br><br>
+                <p id="explicar"></p><br><br>
+            </div>
+            <br>
+            <p id="autor"></p>
         </main>
+
+        <footer>
+            © Desenvolvido por Mariana Pane - T13 Resilia
+        </footer>
+
+        <script src="./jquery-3.6.0.min.js"></script>
+        <script src="projetoAPOD.js" defer></script>
+
     </center>
-
-    <footer>
-        © Desenvolvido por Mariana Pane - T13 Resilia
-    </footer>
-
 </body>
 </html>
